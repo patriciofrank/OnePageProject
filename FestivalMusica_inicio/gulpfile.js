@@ -52,5 +52,5 @@ function dev(done){
     done();
 }
 
-exports.para=parallel (imagenes,versionWebp,versionAvif,dev);
-exports.dev=dev;
+exports.dev=parallel (imagenes,versionWebp,versionAvif,dev);
+exports.css=css;
