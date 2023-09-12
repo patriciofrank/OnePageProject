@@ -16,6 +16,8 @@
     "sass": "^1.66.1"
   },
   "devDependencies": {
+    "gulp-cache": "^1.1.3",
+    "gulp-imagemin": "^7.1.0",
     "gulp-webp": "^4.0.1"
   }
 }
