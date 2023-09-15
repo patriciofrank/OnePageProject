@@ -49,8 +49,16 @@ function imagenes(done){
 function dev(done){
 
     watch("src/scss/**/*.scss",css)
+    watch("src/js/**/*.js",javascript)
     done();
 }
+function javascript(done){
+    src('src/js/**/*.js')
+    .pipe(dest('build/js'));
 
-exports.dev=parallel (imagenes,versionWebp,versionAvif,dev);
+    done()
+}
+
+exports.dev=parallel (imagenes,versionWebp,versionAvif,dev,javascript);
 exports.css=css;
+exports.js=javascript;
