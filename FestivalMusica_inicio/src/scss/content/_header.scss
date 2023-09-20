@@ -3,6 +3,7 @@
 
 .header{
     background-color: v.$verde;
+    z-index: 11;
     @include m.tablet {
      position: sticky;
      top:0px;   
