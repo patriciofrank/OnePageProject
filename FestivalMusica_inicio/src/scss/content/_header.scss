@@ -3,6 +3,10 @@
 
 .header{
     background-color: v.$verde;
+    @include m.tablet {
+     position: sticky;
+     top:0px;   
+    }
     
     h1{
         color:v.$blanco;
@@ -21,6 +25,7 @@
     }
 }
 .navegacion-principal{
+    
     @include m.tablet {
         display: flex;
         gap: 2rem;

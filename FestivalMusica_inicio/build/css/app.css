@@ -370,6 +370,12 @@ img {
 .header {
   background-color: #4CB8B3;
 }
+@media (min-width: 768px) {
+  .header {
+    position: sticky;
+    top: 0.5px;
+  }
+}
 .header h1 {
   color: #FFFFFF;
   text-align: center;
