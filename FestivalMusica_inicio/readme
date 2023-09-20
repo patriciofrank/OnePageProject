@@ -1,0 +1,17 @@
+
+#  One Page project
+
+Music festival one page 
+
+
+## Tech Stack
+
+ Html, Sass, JavaScript, Gulp
+
+
+
+
+## Optimizations
+
+Using autoprefixer , cssnano, gulp-postcss, gulp-sourcemaps , gulp-terser
+
