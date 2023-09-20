@@ -391,12 +391,12 @@ img {
 }
 
 @media (min-width: 768px) {
-  .navegacion_principal {
+  .navegacion-principal {
     display: flex;
     gap: 2rem;
   }
 }
-.navegacion_principal a {
+.navegacion-principal a {
   display: block;
   text-align: center;
   color: #FFFFFF;
@@ -404,11 +404,11 @@ img {
   margin-bottom: 1rem;
 }
 @media (min-width: 768px) {
-  .navegacion_principal a {
+  .navegacion-principal a {
     margin: 0;
   }
 }
-.navegacion_principal a:hover {
+.navegacion-principal a:hover {
   color: #fef46d;
 }
 
